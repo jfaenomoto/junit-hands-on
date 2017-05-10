@@ -2,7 +2,7 @@ package br.com.guiabolso.junit;
 
 public class PokemonProfessor {
 
-    int contador;
+    private int contador;
 
     public PokemonProfessor() {
         this.contador = 0;
