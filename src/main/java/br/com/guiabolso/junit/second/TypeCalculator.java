@@ -9,9 +9,9 @@ public class TypeCalculator {
             new Vector<>(Arrays.asList("Grass", "Water", "Fire"));
     
     private final static int[][] TYPE_MATRIX = {
-        {0, 1, -1}, // grass
-        {-1, 0, 1}, // water
-        {1, -1, 0}  // fire
+        {-1, 1, -1}, // grass
+        {-1, -1, 1}, // water
+        {1, -1, -1}  // fire
     };
 
     public String damageFromTo(String typeA, String typeB) {

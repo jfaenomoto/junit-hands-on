@@ -10,9 +10,9 @@ public class TypeCalculatorTest {
 
     public static Iterable<Object[]> data() {
         return Arrays.asList(new Object[][] {
-                { "Grass", "Grass", "Normal" },
-                { "Water", "Water", "Normal" },
-                { "Fire", "Fire", "Normal" },
+                { "Grass", "Grass", "Not very effective" },
+                { "Water", "Water", "Not very effective" },
+                { "Fire", "Fire", "Not very effective" },
                 
                 { "Grass", "Water", "Super effective" },
                 { "Water", "Fire", "Super effective" },
