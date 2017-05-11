@@ -18,9 +18,13 @@ public class Trainer {
     public String getName() {
         return name;
     }
-
-    public List<String> getPokemon() {
-        return pokemon;
+    
+    public String getActivePokemon() {
+        return pokemon.get(0);
+    }
+    
+    public void faintActivePokemon() {
+        pokemon.remove(0);
     }
     
     public boolean hasPokemon() {

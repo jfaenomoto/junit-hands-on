@@ -20,13 +20,13 @@ public class PokemonBattle {
                 System.out.println(String.format("%s was defeated!", you.getName()));
                 return trainer;
             }
-            String yourPokemon = you.getPokemon().get(0);
-            String trainerPokemon = trainer.getPokemon().get(0);
+            String yourPokemon = you.getActivePokemon();
+            String trainerPokemon = trainer.getActivePokemon();
             String winner = this.battleSystem.winnerFrom(yourPokemon, trainerPokemon);
             if (yourPokemon.compareTo(winner) == 0) {
-                trainer.getPokemon().remove(trainerPokemon);
+                trainer.faintActivePokemon();
             } else {
-                you.getPokemon().remove(yourPokemon);
+                you.faintActivePokemon();
             }
             this.expSystem.giveExpTo(winner);
         }
