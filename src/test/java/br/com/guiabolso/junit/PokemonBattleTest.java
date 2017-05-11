@@ -5,7 +5,7 @@ import static org.mockito.Mockito.*;
 
 import org.junit.Test;
 
-public class PokeCenterTest {
+public class PokemonBattleTest {
     
     @Test
     public void test() {
