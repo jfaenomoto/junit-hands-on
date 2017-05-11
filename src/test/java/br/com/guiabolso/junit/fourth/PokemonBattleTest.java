@@ -1,4 +1,4 @@
-package br.com.guiabolso.junit.third;
+package br.com.guiabolso.junit.fourth;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
