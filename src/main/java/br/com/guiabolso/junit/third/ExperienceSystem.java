@@ -1,4 +1,4 @@
-package br.com.guiabolso.junit;
+package br.com.guiabolso.junit.third;
 
 public class ExperienceSystem {
 

@@ -1,4 +1,4 @@
-package br.com.guiabolso.junit;
+package br.com.guiabolso.junit.second;
 
 public class Pokeball {
 

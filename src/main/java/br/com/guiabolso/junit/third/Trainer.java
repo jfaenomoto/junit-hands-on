@@ -1,4 +1,4 @@
-package br.com.guiabolso.junit;
+package br.com.guiabolso.junit.third;
 
 import java.util.Arrays;
 import java.util.LinkedList;

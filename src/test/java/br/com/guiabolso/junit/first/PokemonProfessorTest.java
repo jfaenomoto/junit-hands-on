@@ -1,11 +1,10 @@
-package br.com.guiabolso.junit;
+package br.com.guiabolso.junit.first;
 
 import static org.junit.Assert.*;
-import static org.mockito.Mockito.*;
 
 import org.junit.Test;
 
-public class PokeCenterTest {
+public class PokemonProfessorTest {
     
     @Test
     public void test() {
