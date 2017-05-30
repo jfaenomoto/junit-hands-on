@@ -10,6 +10,11 @@ public class PokemonBattle {
         this.expSystem = new ExperienceSystem();
     }
     
+    public PokemonBattle(BattleSystem battleSystem, ExperienceSystem expSystem) {
+        this.battleSystem = battleSystem;
+        this.expSystem = expSystem;
+    }
+    
     public Trainer battle(Trainer you, Trainer trainer) {
         while (true) {
             if (!trainer.hasPokemon()) {
