@@ -13,6 +13,7 @@ public class PokemonProfessor {
             throw new IllegalStateException("no more pokemon ;(");
         }
         String pokemon;
+        
         if (contador % 3 == 0) {
             pokemon = "Bulbasaur";
         } else if (contador % 3 == 1) {
@@ -20,6 +21,7 @@ public class PokemonProfessor {
         } else {
             pokemon = "Charmander";
         }
+        
         this.contador++;
         return pokemon;
     }
