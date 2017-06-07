@@ -1,5 +1,3 @@
-startingVersion = '1.0.0'
-
 autobump {
     majorPattern = ~/(?m)^\[major\]$/
     minorPattern = ~/(?m)^\[feature\]$/
