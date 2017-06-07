@@ -1,1 +1,7 @@
+startingVersion = '1.0.0'
 
+autobump {
+    majorPattern = ~/(?m)^\[major\]$/                    # match "[bump-major]" on its own line without leading or trailing characters
+    minorPattern = ~/(?m)^\[feature\]$/                    # match "[bump-minor]" on its own line without leading or trailing characters
+    patchPattern = ~/(?m)^\[hotfix\]$/                    # match "[bump-patch]" on its own line without leading or trailing characters
+}
